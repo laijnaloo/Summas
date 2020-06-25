@@ -3,6 +3,23 @@
     <string name="start_button">Let\'s Start !</string>
     <string name="play_button">Play</string>
     <string name="score_button">Score</string>
+
+    //MENU BUTTONS
+    <string name="menu_play">Play</string>
+    <string name="menu_score">Score</string>
+    <string name="menu_help">Help</string>
+
+    //LEVELS
+    <string name="levels_title">Choose Level </string>
+    <string name="levels_easy">Easy Peasy</string>
+    <string name="levels_medium">Semi Experienced</string>
+    <string name="levels_hard">Sensei</string>
+
+    //SCORE
+    <string name="score_title">Your score: </string>
+    <string name="score_score">0 </string>
+
+    //HELP
     <string name="help_button">Help</string>
     <string name="help_title">How does the game work?</string>
     <string name="help_text">Add some here and add some there. </string>

@@ -10,6 +10,21 @@ class MenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
+        val playButton = findViewById<Button>(R.id.playButton)
+        playButton.setOnClickListener {
+            val intentPlayButton = Intent(this, LevelsActivity::class.java);
+            startActivity(intentPlayButton)
+        }
+
+
+
+    val scoreButton = findViewById<Button>(R.id.scoreButton)
+    scoreButton.setOnClickListener {
+        val intentScoreButton = Intent(this, ScoreActivity::class.java);
+        startActivity(intentScoreButton)
+    }
+
+
 
         val helpButton = findViewById<Button>(R.id.helpButton)
         helpButton.setOnClickListener {
