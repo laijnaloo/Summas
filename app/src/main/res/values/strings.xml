@@ -16,13 +16,24 @@
     <string name="levels_hard">Sensei</string>
 
     //SCORE
-    <string name="score_title">Your score: </string>
+    <string name="score_title">Your high score: </string>
     <string name="score_score">0 </string>
 
     //HELP
     <string name="help_button">Help</string>
     <string name="help_title">How does the game work?</string>
-    <string name="help_text">Add some here and add some there. </string>
+    <string name="help_text">The game is all about addition. Add the two numbers presented and if you are right you will be rewarded with one point. When you have gathered 5 points on a level you have the chance to level up and tackle even trickier questions. Once a new level is unlocked you can start from that levels base point and try to reach new highscores. Good luck on your training!  </string>
     <string name="help_version">Version: </string>
+
+
+    //PLAY
+    <string name="play_question_title">What number is X?</string>
+    <string name="play_answer_x">X =</string>
+    <string name="play_answer_button">Send</string>
+    <string name="play_no_question">No question found</string>
+    <string name="play_new_question">New question</string>
+    <string name="play_next_level">Play new level</string>
+    <string name="play_finished">Your finished all levels, a true sensei</string>
+    <string name="play_restart_level">Wrong answer. Restart level</string>
 
 </resources>

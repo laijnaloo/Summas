@@ -12,6 +12,6 @@ class ScoreActivity : AppCompatActivity() {
         setContentView(R.layout.activity_score)
 
         val scoreTextView = findViewById<TextView>(R.id.scoreTextView)
-        scoreTextView.text = AppState.highScore.toString()
+        scoreTextView.text = AppState.highScore.value.toString()
     }
 }
