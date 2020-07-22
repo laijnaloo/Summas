@@ -18,6 +18,8 @@
     //SCORE
     <string name="score_title">Your high score: </string>
     <string name="score_score">0 </string>
+    <string name="score_current_level_title">Current level </string>
+    <string name="score_current_level"> Easy </string>
 
     //HELP
     <string name="help_button">Help</string>

@@ -13,5 +13,17 @@ class ScoreActivity : AppCompatActivity() {
 
         val scoreTextView = findViewById<TextView>(R.id.scoreTextView)
         scoreTextView.text = AppState.highScore.value.toString()
+
+        val currentLevelTextView = findViewById<TextView>(R.id.currentLevel)
+
+        var currentLevel = "Easy"
+
+        if(AppState.highScore.value!! >= 10){
+            currentLevel = "Sensei"
+
+        } else if (AppState.highScore.value!! >= 5){
+            currentLevel = "Semi Experienced"
+        }
+        currentLevelTextView.text = currentLevel
     }
 }

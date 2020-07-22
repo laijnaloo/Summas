@@ -144,6 +144,7 @@ class PlayActivity : AppCompatActivity() {
                         playNextLevelButton.setOnClickListener {
                             val intentPlayNextLevelButton = Intent(this, LevelsActivity::class.java);
                             startActivity(intentPlayNextLevelButton)
+                            finish()
                         }
 
                     } else if(userInputField.text.toString() == answer.toString()) {
@@ -185,6 +186,7 @@ class PlayActivity : AppCompatActivity() {
                         restartLevelButton.setOnClickListener {
                             val intentRestartButton = Intent(this, PlayActivity::class.java);
                             startActivity(intentRestartButton)
+                            finish()
                         }
                     }
 
